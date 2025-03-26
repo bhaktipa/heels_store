@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="checkout.html">Checkout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="cart">
+    <h1>Your Shopping Cart</h1>
+    <div id="cart-items">
+      <!-- Cart items will be displayed here -->
+      <p>Your cart is empty. Add items to the cart from the home page.</p>
+    </div>
+
+    <div id="cart-summary">
+      <p><strong>Total: $<span id="total-price">0.00</span></strong></p>
+      <button onclick="proceedToCheckout()">Proceed to Checkout</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Stylish Heels. All rights reserved.</p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
